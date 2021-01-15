@@ -1,0 +1,8 @@
+name: PULL_EXTERNAL_REPOSITORY
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
